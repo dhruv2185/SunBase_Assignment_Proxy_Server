@@ -103,7 +103,7 @@ app.post("/createUser", async (req, res) => {
                 city: req.body.city,
                 state: req.body.state,
                 email: req.body.email,
-                phone: req.body.email
+                phone: req.body.phone
             })
 
         });
@@ -134,7 +134,7 @@ app.post("/editUser", async (req, res) => {
                 city: req.body.city,
                 state: req.body.state,
                 email: req.body.email,
-                phone: req.body.email
+                phone: req.body.phone
             })
 
         })
